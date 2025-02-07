@@ -5,6 +5,10 @@ import Profile from '../components/UI/ProfileSections/ProfileDetailed';
 import Container from '../components/UI/ListItem';
 
 import API from '../utils/API';
+import projects from '../utils/projects';
+
+const ProjectsPage = () => {
+  const []
 
 export default function ProfilePage() {
   const [user, setUser] = useState({});

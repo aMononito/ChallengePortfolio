@@ -1,10 +1,10 @@
 export default function ListItem({ children, ...props }) {
   return (
-    <li
-      className="list-group-item pt-4 d-flex justify-content-center align-items-center"
+    <div
+      className="card shadow-sm p-3 mb-3 bg-body rounded"
       {...props}
     >
       {children}
-    </li>
+    </div>
   );
 }

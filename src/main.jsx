@@ -11,6 +11,7 @@ import ErrorPage from './pages/ErrorPage';
 import HomePage from './pages/HomePage';
 import ProfilePage from './pages/ProfilePage';
 import AboutPage from './pages/AboutPage';
+import PortfolioPage from './pages/Portfolio';
 
 // Define the accessible routes, and which components respond to which URL
 const router = createBrowserRouter([
@@ -31,6 +32,10 @@ const router = createBrowserRouter([
         path: 'about',
         element: <AboutPage />,
       },
+      {
+        path: 'Portfolio',
+        element: <PortfolioPage />,
+      }
     ],
   },
 ]);

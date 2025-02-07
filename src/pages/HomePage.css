@@ -1,0 +1,27 @@
+@keyframes float {
+    0%, 100% {
+        transform: translateY(0);
+    }
+    50% {
+        transform: translateY(-10px);
+    }
+}
+
+.floating-letters {
+    display: inline-block;
+    animation: float 3s ease-in-out infinite;
+    font-size: 3em; /* Increase the font size */
+}
+
+.floating-letters span {
+    display: inline-block;
+    animation: float 3s ease-in-out infinite;
+}
+
+.floating-letters span:nth-child(odd) {
+    animation-delay: 0s;
+}
+
+.floating-letters span:nth-child(even) {
+    animation-delay: 1.5s;
+}
