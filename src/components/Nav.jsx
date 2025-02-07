@@ -19,10 +19,10 @@ export default function Nav() {
         <Link key={3} className="nav-link text-light" to="/portfolio">
           Portfolio
         </Link>,
-        <Link key={4} className="nav-link text-light" to="/contact">
+        <Link key={4} className="nav-link text-light" to="/ContactPage">
           Contact
         </Link>,
-        <Link key={5} className="nav-link text-light" to="/resume">
+        <Link key={5} className="nav-link text-light" to="/Resume">
           Resume
         </Link>,
       ]}
